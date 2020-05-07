@@ -6,7 +6,6 @@ import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import EmailAuth3807Navigator from '../features/EmailAuth3807/navigator';
-import EmailAuth3805Navigator from '../features/EmailAuth3805/navigator';
 import EmailAuthNavigator from '../features/EmailAuth/navigator';
 
 /**
@@ -19,7 +18,6 @@ const AppNavigator = {
     },
     //@BlueprintNavigationInsertion
 EmailAuth3807: { screen: EmailAuth3807Navigator },
-EmailAuth3805: { screen: EmailAuth3805Navigator },
 EmailAuth: { screen: EmailAuthNavigator },
 
     /** new navigators can be added here */
